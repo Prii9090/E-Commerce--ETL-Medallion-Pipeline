@@ -29,3 +29,21 @@
 
 -Data Quality: Built monitoring queries to track missing IDs and unvalidated transactions.
 
+<img width="1004" height="625" alt="image" src="https://github.com/user-attachments/assets/e5f42b2d-2d9f-4290-ae2c-4acb88d61871" />
+
+
+
+
+
+<img width="1159" height="807" alt="image" src="https://github.com/user-attachments/assets/52630f2b-7d65-4396-9ca5-81383a1af612" />
+
+
+
+
+
+
+<img width="1161" height="833" alt="image" src="https://github.com/user-attachments/assets/dbe367bd-2620-4d9e-94d6-d7c4393bde0d" />
+
+
+
+
