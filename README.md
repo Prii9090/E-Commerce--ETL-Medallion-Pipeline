@@ -9,13 +9,23 @@
 
 -Storage: Delta Lake
 
+-API/Connectivity: Leveraged createOrReplaceTempView to bridge Spark DataFrames with SQL analytics.
+
 -Architecture: Medallion (Bronze/Silver/Gold)
 
 ## Key Features
-Data Cleaning (Silver): Standardized schemas, handled missing values, and validated transaction data.
+-Data Cleaning (Silver): Standardized schemas, handled missing values, and validated transaction data.
 
-Aggregations (Gold): Generated country-level sales metrics and monthly revenue trends.
+-Aggregations (Gold): Generated country-level sales metrics and monthly revenue trends.
 
-Customer Segmentation: Implemented RFM-style logic to categorize customers into 'Champion', 'Loyal', and 'Standard' segments.
+-Customer Segmentation: Implemented RFM-style logic to categorize customers into 'Champion', 'Loyal', and 'Standard' segments.
 
-Cross-Language Integration: Used TempViews to bridge PySpark transformations with SQL-based BI reporting.
+-Cross-Language Integration: Used TempViews to bridge PySpark transformations with SQL-based BI reporting.
+
+## Business Insights Generated
+-Market Health: Identified top-performing countries by revenue and customer density.
+
+-Retention Analysis: Categorized the customer base to identify "At-Risk" revenue from segments with declining activity.
+
+-Data Quality: Built monitoring queries to track missing IDs and unvalidated transactions.
+
